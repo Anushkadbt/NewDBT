@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: Data
+    database: PC_DBT_DB
+    schema: PUBLIC
+    tables:
+      - name : CUSTOMERS
+     
