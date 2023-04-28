@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: stage_User
+    database: PC_DBT_DB
+    schema: RAW
+    tables:
+      - name: USER
