@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: snowflake_test
+    database: PC_DBT_DB
+    schema: PUBLIC
+    tables:
+      - name: CUSTOMERS
