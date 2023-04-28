@@ -3,6 +3,6 @@ version: 2
 sources:
   - name: snowflake_test
     database: PC_DBT_DB
-    schema: PUBLIC
+    schema: RAW
     tables:
-      - name: CUSTOMERS
+      - name: ACCOUNT

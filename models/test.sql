@@ -1,1 +1,1 @@
-select * from {{ source('snowflake_test', 'CUSTOMERS') }}
+select * from {{ source('snowflake_test', 'ACCOUNT') }}
