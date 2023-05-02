@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: stage_Account
+  - name: stage_source
     database: PC_DBT_DB
     schema: RAW
     tables:

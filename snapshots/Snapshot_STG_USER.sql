@@ -15,5 +15,5 @@
     )
 }}
 select ID,USERNAME,COMPANYNAME,PHONE,EMAIL,CITY
- from {{ source('stage_Account', 'USER') }}
+ from {{ source('stage_source', 'USER') }}
 {% endsnapshot %}
