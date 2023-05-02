@@ -7,3 +7,9 @@ sources:
     tables:
       - name: ACCOUNT
       - name: USER
+      - name: ORDER
+  - name: source_date
+    database: PC_DBT_DB
+    schema: MODEL
+    tables:
+      - name: DIM_DATE
