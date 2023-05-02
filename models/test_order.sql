@@ -1,0 +1,1 @@
+select * from {{source('stage_source','ORDER_DETAILS')}}
